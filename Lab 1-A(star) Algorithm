@@ -30,9 +30,7 @@ def astaralgo(startnode,endnode):
                             closed_set.remove(m)
                             open_set.add(m)
                        
-        if n==None:
-            print("Path does not exists")
-               
+        
         if n==endnode:
             path=[]
 
@@ -49,6 +47,7 @@ def astaralgo(startnode,endnode):
         
         open_set.remove(n)
         closed_set.add(n)
+    print('Path not found')
                        
                        
     print('open_set',open_set)
