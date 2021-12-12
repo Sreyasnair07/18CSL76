@@ -129,7 +129,7 @@ def test(attributes,instance,tree):
     
 def execute_decision_tree():
     data=[]
-    with open(r"C:\Users\Admin\OneDrive\Desktop\file.csv") as tsv:
+    with open(r"C:\Users\Admin\OneDrive\Desktop\fileid3.csv") as tsv:
         for line in csv.reader(tsv):
             data.append(tuple(line))
     attributes=list(data[0])
