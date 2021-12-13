@@ -78,7 +78,7 @@ def get_values(data,attributes,attr):
     i=attributes.index(attr)
     values=[]
     for entry in data:
-        if entry[i]==data:
+        if entry[i]==attr:
             pass
         else:
             if entry[i] not in values:
